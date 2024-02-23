@@ -1,0 +1,31 @@
+.all_new{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 80px 0 ;
+}
+
+.all_new h1{
+ margin: 0px 0px 55px;
+}
+
+
+.new{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 45px;
+}
+
+@media(max-width:500px){
+  .all_new h1{
+    font-size: 30px;
+  }
+  
+  
+  .new{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

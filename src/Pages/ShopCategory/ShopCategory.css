@@ -1,0 +1,23 @@
+
+.category{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.category img { 
+    display: flex;
+    margin:0px 0px 40px;
+}
+
+.category_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    row-gap: 40px;  
+}
+@media(max-width:800px){
+  .category_item{
+    gap: 20px;
+  }
+}

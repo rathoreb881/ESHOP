@@ -1,0 +1,36 @@
+.popular_items{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+   gap: 20px;
+}
+
+.popular_items h1{
+    margin: 0px 0px 50px;
+}
+
+.popular_items_title{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+@media (max-width:800px){
+    .popular_items h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:500px) {
+    .popular_items h1{
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+    .popular_items_title{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
